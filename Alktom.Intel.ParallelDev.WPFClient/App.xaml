@@ -1,0 +1,9 @@
+﻿<Application x:Class="Alktom.Intel.ParallelDev.WPFClient.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Alktom.Intel.ParallelDev.WPFClient"
+             StartupUri="Views/CalculatorView.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

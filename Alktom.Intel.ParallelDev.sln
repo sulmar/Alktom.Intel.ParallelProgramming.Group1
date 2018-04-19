@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alktom.Intel.ParallelDev.Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alktom.Intel.ParallelDev.TaskConsoleClient", "Alktom.Intel.ParallelDev.TaskConsoleClient\Alktom.Intel.ParallelDev.TaskConsoleClient.csproj", "{93213861-1BDF-4619-A0CA-F88A42C71098}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alktom.Intel.ParallelDev.WPFClient", "Alktom.Intel.ParallelDev.WPFClient\Alktom.Intel.ParallelDev.WPFClient.csproj", "{F6D04700-4A73-4B14-B8B7-DA5E89D02E17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altkom.Intel.ParallelDev.ReactiveClient", "Altkom.Intel.ParallelDev.ReactiveClient\Altkom.Intel.ParallelDev.ReactiveClient.csproj", "{4623140B-272A-4101-ABC9-41C3433EBC2A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{93213861-1BDF-4619-A0CA-F88A42C71098}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93213861-1BDF-4619-A0CA-F88A42C71098}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93213861-1BDF-4619-A0CA-F88A42C71098}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6D04700-4A73-4B14-B8B7-DA5E89D02E17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6D04700-4A73-4B14-B8B7-DA5E89D02E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6D04700-4A73-4B14-B8B7-DA5E89D02E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6D04700-4A73-4B14-B8B7-DA5E89D02E17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4623140B-272A-4101-ABC9-41C3433EBC2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4623140B-272A-4101-ABC9-41C3433EBC2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4623140B-272A-4101-ABC9-41C3433EBC2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4623140B-272A-4101-ABC9-41C3433EBC2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

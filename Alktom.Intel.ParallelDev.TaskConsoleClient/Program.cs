@@ -72,11 +72,8 @@ namespace Alktom.Intel.ParallelDev.TaskConsoleClient
         private static void DoWork(CancellationToken token)
         {
            while(true)
-            {
-                
-                 token.ThrowIfCancellationRequested();
-                
-
+            {                
+                token.ThrowIfCancellationRequested();
 
                 Console.Write(".");
                 Thread.Sleep(TimeSpan.FromSeconds(0.1));

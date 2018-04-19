@@ -15,6 +15,7 @@ namespace Alktom.Intel.ParallelDev.TaskConsoleClient.DownloadDemo
             {
                 var content = await client.DownloadStringTaskAsync(uri);
 
+
                 return content;
             }
         }

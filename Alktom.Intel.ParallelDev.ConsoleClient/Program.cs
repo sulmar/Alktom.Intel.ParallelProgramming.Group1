@@ -47,10 +47,28 @@ namespace Alktom.Intel.ParallelDev.ConsoleClient
 
         static void Main(string[] args)
         {
+            // ParallelLinqSample.FindTest();
 
-           Task.Run(() => ExceptionTest());
-            
-            
+            ParallelLinqSample.DownloadTest();
+
+            //ParallelLinqSample.AsParallelTest();
+
+            //ParallelLinqSample.AsOrderedTest();
+
+            // ParallelSample.ParallelForEachTest();
+
+            // BlockingCollectionSample.BlockingCollectionTest();
+
+            //    ConcurentQueueSample.ConcurentQueueTest();
+
+            // ConcurentQueueLockSample.QueueTest();
+
+            // Task.Run(() => CancellationTokenSourceSample.CancelDownloadTest());
+
+
+            // Task.Run(() => ExceptionTest());
+
+
             Console.WriteLine("Press any key to exit.");
 
             Console.ReadKey();
