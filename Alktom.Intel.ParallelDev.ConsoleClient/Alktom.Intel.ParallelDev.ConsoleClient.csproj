@@ -51,6 +51,8 @@
     <Compile Include="ParallelSample.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TasksSample.cs" />
+    <Compile Include="ThreadSample.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

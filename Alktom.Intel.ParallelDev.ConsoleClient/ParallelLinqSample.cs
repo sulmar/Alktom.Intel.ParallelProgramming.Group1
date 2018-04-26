@@ -11,6 +11,19 @@ namespace Alktom.Intel.ParallelDev.ConsoleClient
     class ParallelLinqSample
     {
 
+        public static void Test()
+        {
+            DownloadTest();
+
+            FindTest();
+
+            AsParallelTest();
+
+            AsOrderedTest();
+            
+        }
+
+
         public static void DownloadTest()
         {
             var cts = new CancellationTokenSource(TimeSpan.FromSeconds(3));

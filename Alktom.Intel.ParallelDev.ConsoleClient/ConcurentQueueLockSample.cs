@@ -9,6 +9,13 @@ namespace Alktom.Intel.ParallelDev.ConsoleClient
 {
     class ConcurentQueueLockSample
     {
+
+        public static void Test()
+        {
+            QueueTest();
+        }
+
+
         private static int Qty;
 
         public static void QueueTest()

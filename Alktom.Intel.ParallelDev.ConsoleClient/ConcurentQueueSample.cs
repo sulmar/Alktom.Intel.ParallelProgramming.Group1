@@ -10,6 +10,11 @@ namespace Alktom.Intel.ParallelDev.ConsoleClient
 {
     class ConcurentQueueSample
     {
+        public static void Test()
+        {
+            ConcurentQueueTest();
+        }
+
 
         public static void ConcurentQueueTest()
         {

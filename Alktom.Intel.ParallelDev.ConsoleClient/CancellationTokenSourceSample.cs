@@ -11,6 +11,12 @@ namespace Alktom.Intel.ParallelDev.ConsoleClient
 {
     public class CancellationTokenSourceSample
     {
+
+        public static void Test()
+        {
+            Task.Run(() => CancellationTokenSourceSample.CancelDownloadTest());
+        }
+
         public static async void CancelDownloadTest()
         {
             using (var cts = new CancellationTokenSource(TimeSpan.FromSeconds(0.1)))

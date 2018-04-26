@@ -10,6 +10,11 @@ namespace Alktom.Intel.ParallelDev.ConsoleClient
 {
     class BlockingCollectionSample
     {
+        public static void Test()
+        {
+            BlockingCollectionTest();
+        }
+
         public static void BlockingCollectionTest()
         {
             BlockingCollection<int> collection = new BlockingCollection<int>();
