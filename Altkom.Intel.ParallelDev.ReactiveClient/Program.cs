@@ -10,6 +10,7 @@ namespace Altkom.Intel.ParallelDev.ReactiveClient
     {
         static void Main(string[] args)
         {
+            CPUMonitor.CpuTest();
 
             TimeObservableSample.FileSystemWatcherTest();
 
